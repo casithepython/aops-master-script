@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name AoPS Master Script for NU people
 // @description A master script for the Art of Problem Solving website
-// @author pi_Plus_45x23
+// @author casi
 // @version 1.4.2
 // @encoding utf-8
 // @license MIT; https://opensource.org/licenses/MIT
 // @icon https://assets.artofproblemsolving.com/images/apple-touch-icon.png
-// @homepage https://github.com/pi-plus-45x23/aops-master-script
-// @supportURL https://github.com/pi-plus-45x23/aops-master-script/issues/new
-// @updateURL https://raw.githubusercontent.com/pi-plus-45x23/aops-master-script/master/script.user.js
-// @downloadURL https://raw.githubusercontent.com/pi-plus-45x23/aops-master-script/master/script.user.js
+// @homepage https://github.com/casithepython/aops-master-script
+// @supportURL https://github.com/casithepython/aops-master-script/issues/new
+// @updateURL https://raw.githubusercontent.com/casithepython/aops-master-script/master/script.user.js
+// @downloadURL https://raw.githubusercontent.com/casithepython/aops-master-script/master/script.user.js
 // @match *://artofproblemsolving.com/*
 // @exclude *://artofproblemsolving.com/*/ajax.php*
 // @exclude *://artofproblemsolving.com/*/*.js*
@@ -193,10 +193,6 @@ $(document).on(
           // C = Community
           location.pathname = '/community';
           break;
-        case 4:
-          // D = Devil's Advocate
-          location.pathname = 'https://artofproblemsolving.com/community/c1113499';
-          break;
         case 6:
           // F = FTW
           location.pathname = '/ftw';
@@ -204,10 +200,6 @@ $(document).on(
         case 7:
           // G = Greed Control
           location.pathname = '/greedcontrol';
-          break;
-        case 12:
-          // L = Classroom
-          location.pathname = '/classroom';
           break;
         case 13:
           // M
@@ -220,6 +212,10 @@ $(document).on(
         case 16:
           // P = Contests and Programs
           location.pathname = '/community/c5';
+          break;
+        case 17:
+          // L = Classroom
+          location.pathname = '/classroom';
           break;
         case 18:
           // R = Reaper
@@ -302,7 +298,11 @@ Views.FAQ = class FAQViews extends Views.FAQ {
                   <br />
                   <strong>F</strong>: <a href="/ftw">For the Win!</a>
                   <br />
+                  <strong>G</strong>: <a href="/greedcontrol">Greed Control</a>
+                  <br />
                   <strong>M</strong>: <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                  <br />
+                  <strong>N</strong>: <a href="/community/c402403">Nerds United</a>
                   <br />
                   <strong>P</strong>: <a href="/polymath">AoPS CrowdMath</a>
                   <br />
@@ -310,9 +310,13 @@ Views.FAQ = class FAQViews extends Views.FAQ {
                   <br />
                   <strong>R</strong>: <a href="/reaper">Reaper</a>
                   <br />
-                  <strong>S</strong>: <a href="/school">Online School</a>
+                  <strong>S</strong>: <a href="/community/c10_site_support">Site Support</a>
                   <br />
                   <strong>W</strong>: <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                  <br />
+                  <strong>X</strong>: <p>?</p>
+                  <br />
+                  <strong>Y</strong>: <a href="/my-aops">My AoPS</a>
                 </div>
               </div>
             </div>
