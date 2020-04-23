@@ -201,6 +201,10 @@ $(document).on(
           // G = Greed Control
           location.pathname = '/greedcontrol';
           break;
+        case 12:
+          //L = Classroom
+          location.pathname = "/classroom";
+          break;
         case 13:
           // M
           location.pathname = '/mathcounts_trainer';
@@ -214,8 +218,8 @@ $(document).on(
           location.pathname = '/community/c5';
           break;
         case 17:
-          // L = Classroom
-          location.pathname = '/classroom';
+          // Q = FAQ
+          location.pathname = '/community/faq';
           break;
         case 18:
           // R = Reaper
@@ -300,13 +304,15 @@ Views.FAQ = class FAQViews extends Views.FAQ {
                   <br />
                   <strong>G</strong>: <a href="/greedcontrol">Greed Control</a>
                   <br />
+                  <strong>L</strong>: <a href="/classroom">Classroom</a>
+                  <br />
                   <strong>M</strong>: <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
                   <br />
                   <strong>N</strong>: <a href="/community/c402403">Nerds United</a>
                   <br />
                   <strong>P</strong>: <a href="/polymath">AoPS CrowdMath</a>
                   <br />
-                  <strong>Q</strong>: <a href="/classroom">Classroom</a>
+                  <strong>Q</strong>: <a href="/community/faq">FAQ</a>
                   <br />
                   <strong>R</strong>: <a href="/reaper">Reaper</a>
                   <br />
