@@ -320,7 +320,7 @@ Views.FAQ = class FAQViews extends Views.FAQ {
                   <br />
                   <strong>W</strong>: <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
                   <br />
-                  <strong>X</strong>: <p>?</p>
+                  <strong>X</strong>: <a href="/#">?</a>
                   <br />
                   <strong>Y</strong>: <a href="/my-aops">My AoPS</a>
                 </div>
