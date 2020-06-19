@@ -15,6 +15,7 @@
 // @exclude *://artofproblemsolving.com/*/*.js*
 // @exclude *://artofproblemsolving.com/schoolhouse/unabletoconnect.php*
 // @exclude *://artofproblemsolving.com/m/schoolhouse/ajax-text-input.php*
+// @exclude *://artofproblemsolving.com/ftw
 // @grant unsafeWindow
 // @grant window.focus
 // @grant GM.addStyle
